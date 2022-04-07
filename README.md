@@ -36,3 +36,6 @@ export IDP_METADATA={IdPのメタデータURI}
 - SPA -> API -> Thymeleaf(SpringBootMvc) -> API -> SPA(念のため)
 - IdP選定
 - IdPへのユーザデータ移行
+- SpringSecurityでのSAML周りの情報
+  - SpringSecurityのSAML拡張(10月でEOLを迎える古い実装)に関する情報がノイズになる
+  - SpringSecuritySamlに不具合がある/いけてないっぽい話を目にする(これもSAML拡張の時代の話か今もあるのか判断しづらい)
