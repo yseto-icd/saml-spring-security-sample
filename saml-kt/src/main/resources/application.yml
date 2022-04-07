@@ -1,0 +1,6 @@
+server:
+  port: 8081
+security:
+  saml:
+    metadatalocation: ${IDP_METADATA}
+    registrationid: ${REGISTRATION_ID_KT:mock-audience-kt}
