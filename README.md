@@ -1,6 +1,12 @@
 # Spring Security SAMLサンプル
 ## はじめに
-Spring Security
+Spring Security versions
+```
+org.springframework.security:spring-security-core:5.6.2
+org.springframework.security:spring-security-saml2-service-provider -> 5.6.2
+```
+- [SpringSecurity Manual](https://docs.spring.io/spring-security/reference/servlet/saml2/index.html)
+
 ## 動作
 - SAML IdPのメタデータURI登録
 ```
